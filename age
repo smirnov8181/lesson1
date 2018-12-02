@@ -1,4 +1,0 @@
-age = 26
-birht_year = 1990
-message = 'Вам {} лет. Вы родились в {} году'.format(age.birth_year)
-message
