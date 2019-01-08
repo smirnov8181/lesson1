@@ -39,3 +39,7 @@ API_AI = 'Api ключ, который вы получите при регист
 .. code-block:: text
 
     python bot2.py
+
+
+.. _Learn Python: https://learn.python.ru/
+.. _Dialogflow: https://dialogflow.com/
