@@ -6,8 +6,8 @@ Smirnov Test Bot - это первый тестовый бот Антона См
 
 Установка
 ---------
+
 Создайте вирутальное акружение и активируйте его. Затем выполните в вирутальном акружении:
-Install and update using `pip`_:
 
 .. code-block:: text
 
@@ -20,22 +20,24 @@ Install and update using `pip`_:
 ---------
 
 Создайте файл settings.py и добавьте туда следующие настройки:
+
 .. code-block:: python 
 
-PROXY = {'proxy_url': 'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
-    'urllib3_proxy_kwargs': {'username': 'ЛОГИН', 'password': 'ПАРОЛЬ'}}
+    PROXY = {'proxy_url': 'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
+        'urllib3_proxy_kwargs': {'username': 'ЛОГИН', 'password': 'ПАРОЛЬ'}}
 
 
-API_KEY = "Api ключ, который вы получите от BotFather"
+    API_KEY = "Api ключ, который вы получите от BotFather"
 
-USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']  
+    USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']  
 
-API_AI = 'Api ключ, который вы получите при регистрации в Dialogflow'
+    API_AI = 'Api ключ, который вы получите при регистрации в Dialogflow'
 
 Запуск
 ------
 
-В активированном виртуальном окружении выполните 
+В активированном виртуальном окружении выполните:
+
 .. code-block:: text
 
     python bot2.py
